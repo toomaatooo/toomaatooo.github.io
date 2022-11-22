@@ -135,7 +135,7 @@ table {
   border-collapse: collapse;
 }
 table thead {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,139,139,0.1);
 }
 table th,
 table td {
@@ -757,7 +757,7 @@ footer.is-mobile {
   color: #000;
 }
 .recent-post-item .article-meta .sticky {
-  color: #e6e6fa;
+  color: #00ced1;
 }
 .recent-post-item .article-meta i {
   margin: 0 0.2rem 0 0.3rem;
@@ -789,7 +789,7 @@ footer.is-mobile {
   transition: all 0.2s ease-in-out;
 }
 .recent-post-item .more:hover {
-  background: #e6e6fa;
+  background: #00ced1;
 }
 .recent-post-item .article-title {
   display: block;
@@ -821,7 +821,7 @@ footer.is-mobile {
   cursor: pointer;
 }
 .tag-cloud a:hover {
-  color: #e6e6fa !important;
+  color: #00ced1 !important;
 }
 .tag-cloud__title {
   font-size: 1.8rem;
@@ -843,7 +843,7 @@ footer.is-mobile {
   line-height: 1;
 }
 .article-sort-title:hover:before {
-  border-color: #e6e6fa;
+  border-color: #00ced1;
 }
 .article-sort-title:before {
   position: absolute;
@@ -883,7 +883,7 @@ footer.is-mobile {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #e6e6fa;
+  border-color: #00ced1;
 }
 .article-sort-item:before {
   position: absolute;
@@ -910,12 +910,12 @@ footer.is-mobile {
 }
 .article-sort-item.year:before {
   top: 0.7rem;
-  border-color: #e6e6fa;
+  border-color: #00ced1;
 }
 .article-sort-item__time {
   position: absolute;
   top: 0.1rem;
-  color: #000;
+  color: #008b8b;
 }
 .article-sort-item__title {
   display: block;
@@ -939,7 +939,7 @@ footer.is-mobile {
 }
 .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #000;
+  color: #008b8b;
 }
 .category-list .category-list-count:before {
   content: "(";
@@ -1058,7 +1058,7 @@ footer.is-mobile {
   cursor: pointer;
 }
 #pagination .space {
-  color: #000;
+  color: #008b8b;
 }
 #pagination .page-number {
   display: inline-block;
@@ -1405,7 +1405,7 @@ footer.is-mobile {
   line-height: 1.2rem;
 }
 #content-inner ul > li:hover:before {
-  border-color: #e6e6fa;
+  border-color: #00ced1;
 }
 #content-inner ul > li:before {
   top: 10px;
@@ -1422,7 +1422,7 @@ footer.is-mobile {
   margin-bottom: 1rem;
 }
 a {
-  color: #000;
+  color: #008b8b;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -1666,7 +1666,7 @@ a.fancybox:focus {
   line-height: 1.6rem;
 }
 #sidebar .author-info .follow-button a:hover {
-  background: #e6e6fa;
+  background: #00ced1;
 }
 #sidebar .author-info.hide {
   display: none;
@@ -1680,7 +1680,7 @@ a.fancybox:focus {
   font-size: 0.8rem;
 }
 #sidebar .author-info__description {
-  color: #000;
+  color: #008b8b;
 }
 #sidebar .author-info-articles {
   padding: 0.2rem 0;
@@ -1753,7 +1753,7 @@ a.fancybox:focus {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .author-info-links__name:hover {
-  background: #e6e6fa;
+  background: #00ced1;
 }
 #sidebar .author-info-links__name:before {
   position: absolute;
