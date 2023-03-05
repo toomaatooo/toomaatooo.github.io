@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/02/28/Adhere-to-historical-materialism-Die-deutsche-Ideologie/</loc>
+    
+    <lastmod>2023-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/31/Book-review-for-%E8%84%B3%E3%81%AE%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%92%E6%9C%80%E5%A4%A7%E3%81%BE%E3%81%A7%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%99-%E7%A5%9E%E3%83%BB%E6%99%82%E9%96%93%E8%A1%93-by-a-Japanese-psychiatrist-%E6%A8%BA%E6%B2%A2-%E7%B4%AB%E8%8B%91/</loc>
+    
+    <lastmod>2023-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/12/28/Some-insights-from-Robert-de-Board-s-Counselling-for-Toads-A-Psychological-Adventure/</loc>
+    
+    <lastmod>2023-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/11/22/hello-world/</loc>
+    
+    <lastmod>2023-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2023-03-05</lastmod>
@@ -19,42 +55,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/2023/02/28/Adhere-to-historical-materialism-Die-deutsche-Ideologie/</loc>
-    
-    <lastmod>2023-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/01/31/Book-review-for-%E8%84%B3%E3%81%AE%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%92%E6%9C%80%E5%A4%A7%E3%81%BE%E3%81%A7%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%99-%E7%A5%9E%E3%83%BB%E6%99%82%E9%96%93%E8%A1%93-by-a-Japanese-psychiatrist-%E6%A8%BA%E6%B2%A2-%E7%B4%AB%E8%8B%91/</loc>
-    
-    <lastmod>2023-01-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/12/28/Some-insights-from-Robert-de-Board-s-Counselling-for-Toads-A-Psychological-Adventure/</loc>
-    
-    <lastmod>2022-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/11/22/hello-world/</loc>
-    
-    <lastmod>2022-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://example.com/</loc>
@@ -65,14 +65,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/blog-building/</loc>
+    <loc>http://example.com/tags/book-review/</loc>
     <lastmod>2023-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/book-review/</loc>
+    <loc>http://example.com/tags/historical-materialism/</loc>
     <lastmod>2023-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -85,6 +85,48 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://example.com/tags/blog-building/</loc>
+    <lastmod>2023-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://example.com/categories/Book-Reviews/</loc>
+    <lastmod>2023-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Blog-Building/</loc>
+    <lastmod>2023-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Book-Reviews/Philosophy/</loc>
+    <lastmod>2023-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Book-Reviews/Self-Improvement/</loc>
+    <lastmod>2023-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Book-Reviews/Psychology/</loc>
+    <lastmod>2023-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
