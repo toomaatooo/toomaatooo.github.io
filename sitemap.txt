@@ -9,13 +9,13 @@ http://example.com/tags/index.html
 http://example.com/
 http://example.com/tags/book-review/
 http://example.com/tags/psychology/
-http://example.com/tags/Game/
-http://example.com/tags/Design/
 http://example.com/tags/Chinese-%E4%B8%AD%E6%96%87/
 http://example.com/tags/blog-building/
+http://example.com/tags/Game/
+http://example.com/tags/Design/
 http://example.com/categories/Book-Movie-Reviews/
+http://example.com/categories/Blog-Building/
+http://example.com/categories/Book-Movie-Reviews/Self-Improvement/
 http://example.com/categories/Game/
 http://example.com/categories/Book-Movie-Reviews/Psychology/
-http://example.com/categories/Book-Movie-Reviews/Self-Improvement/
 http://example.com/categories/Game/Art/
-http://example.com/categories/Blog-Building/
