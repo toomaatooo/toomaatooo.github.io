@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/05/%E7%94%B5%E5%BD%B1%E9%BB%91%E5%A4%A9%E9%B9%85%E4%B8%AD%E7%9A%84%E6%83%85%E6%84%9F%E4%BA%92%E5%8A%A8%E5%88%86%E6%9E%90/</loc>
+    <loc>http://example.com/2023/03/05/%C3%97updating%20%E7%94%B5%E5%BD%B1%E9%BB%91%E5%A4%A9%E9%B9%85%E4%B8%AD%E7%9A%84%E6%83%85%E6%84%9F%E4%BA%92%E5%8A%A8%E5%88%86%E6%9E%90/</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/11/Analysis%20of%20emotional%20interaction%20in%20the%20movie%20Black%20Swan/</loc>
+    <loc>http://example.com/2023/03/11/%C3%97updating%20Analysis%20of%20emotional%20interaction%20in%20the%20movie%20Black%20Swan/</loc>
     
     <lastmod>2023-03-13</lastmod>
     
@@ -148,13 +148,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Blog-Building/</loc>
-    <lastmod>2023-03-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Self-Improvement/</loc>
     <lastmod>2023-03-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -163,6 +156,13 @@
   
   <url>
     <loc>http://example.com/categories/Game/Art/</loc>
+    <lastmod>2023-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Blog-Building/</loc>
     <lastmod>2023-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
