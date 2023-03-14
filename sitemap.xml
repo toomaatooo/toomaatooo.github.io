@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/01/31/Book%20review%20for%20The%20god%20of%20time%20that%20brings%20out%20the%20maximum%20performance%20of%20the%20brain%20by%20a%20Japanese%20psychiatrist%20Kabasawa%20Shion/</loc>
+    
+    <lastmod>2023-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/03/13/Game%20Art%20Analysis%20of%20Toem/</loc>
     
     <lastmod>2023-03-14</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>http://example.com/2022/12/28/Some-insights-from-Robert-de-Board-s-Counselling-for-Toads-A-Psychological-Adventure/</loc>
-    
-    <lastmod>2023-03-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/01/31/Book-review-for-%E8%84%B3%E3%81%AE%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%92%E6%9C%80%E5%A4%A7%E3%81%BE%E3%81%A7%E5%BC%95%E3%81%8D%E5%87%BA%E3%81%99-%E7%A5%9E%E3%83%BB%E6%99%82%E9%96%93%E8%A1%93-by-a-Japanese-psychiatrist-%E6%A8%BA%E6%B2%A2-%E7%B4%AB%E8%8B%91/</loc>
     
     <lastmod>2023-03-11</lastmod>
     
