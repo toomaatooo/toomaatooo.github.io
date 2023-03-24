@@ -85,7 +85,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,42 +93,42 @@
   
   <url>
     <loc>http://example.com/tags/book-review/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Game/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Design/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/psychology/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Chinese-%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/blog-building/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -137,42 +137,42 @@
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Game/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Self-Improvement/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Game/Art/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Psychology/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Blog-Building/</loc>
-    <lastmod>2023-03-14</lastmod>
+    <lastmod>2023-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
