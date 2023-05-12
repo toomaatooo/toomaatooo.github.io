@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/05/12/record/</loc>
+    
+    <lastmod>2023-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/05/12/unity%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2023-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/03/13/Toem%E7%BE%8E%E6%9C%AF%E9%A3%8E%E6%A0%BC%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E8%B7%B5/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/01/31/Book%20review%20for%20The%20god%20of%20time%20that%20brings%20out%20the%20maximum%20performance%20of%20the%20brain%20by%20a%20Japanese%20psychiatrist%20Kabasawa%20Shion/</loc>
     
     <lastmod>2023-03-14</lastmod>
@@ -14,15 +41,6 @@
     <loc>http://example.com/2023/03/13/Game%20Art%20Analysis%20of%20Toem/</loc>
     
     <lastmod>2023-03-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/03/13/Toem%E7%BE%8E%E6%9C%AF%E9%A3%8E%E6%A0%BC%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E8%B7%B5/</loc>
-    
-    <lastmod>2023-03-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +103,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,42 +111,56 @@
   
   <url>
     <loc>http://example.com/tags/book-review/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Game/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Design/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/psychology/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Chinese-%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/blog-building/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Dialogue-System-for-unity/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Unity/</loc>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -137,42 +169,56 @@
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Game/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Self-Improvement/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Game/Art/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Psychology/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Blog-Building/</loc>
-    <lastmod>2023-03-24</lastmod>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Skill/</loc>
+    <lastmod>2023-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Skill/Unity/</loc>
+    <lastmod>2023-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
