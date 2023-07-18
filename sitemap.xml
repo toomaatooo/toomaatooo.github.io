@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/06/02/ace%20for%20games/</loc>
+    
+    <lastmod>2023-06-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/05/12/record/</loc>
     
     <lastmod>2023-05-12</lastmod>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,56 +102,56 @@
   
   <url>
     <loc>http://example.com/tags/book-review/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Game/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Design/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/psychology/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Chinese-%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/blog-building/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Dialogue-System-for-unity/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Unity/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -151,56 +160,56 @@
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Game/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Self-Improvement/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Game/Art/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Book-Movie-Reviews/Psychology/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Blog-Building/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Skill/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/Skill/Unity/</loc>
-    <lastmod>2023-05-31</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
