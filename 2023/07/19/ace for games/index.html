@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="ACE(Avatar Cloud Engine) for Games在UE5中的使用"><meta name="keywords" content="Game,Chinese 中文,Unity,UE5,NVIDIA,AI"><meta name="author" content="ZhangNort"><meta name="copyright" content="ZhangNort"><title>ACE(Avatar Cloud Engine) for Games在UE5中的使用 | Toomaatooo's Blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  hexoVersion: '6.3.0'
+} </script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Toomaatooo's Blog" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6"><span class="toc-number">1.</span> <span class="toc-text">安装插件</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%8F%92%E4%BB%B6%E5%B9%B6%E5%AE%89%E8%A3%85"><span class="toc-number">1.1.</span> <span class="toc-text">下载插件并安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8%E5%BC%95%E6%93%8E%E4%B8%AD%E6%BF%80%E6%B4%BB%E6%8F%92%E4%BB%B6"><span class="toc-number">1.2.</span> <span class="toc-text">在引擎中激活插件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E5%AE%9A%E5%88%B6%E8%A7%92%E8%89%B2"><span class="toc-number">2.</span> <span class="toc-text">创建定制角色</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%95%E6%93%8E%E4%B8%AD%E5%AF%BC%E5%85%A5%E8%A7%92%E8%89%B2%E4%BF%A1%E6%81%AF"><span class="toc-number">3.</span> <span class="toc-text">引擎中导入角色信息</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%93%E5%85%A5API-Key"><span class="toc-number">3.1.</span> <span class="toc-text">输入API Key</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E8%93%9D%E5%9B%BE"><span class="toc-number">3.2.</span> <span class="toc-text">创建蓝图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E8%93%9D%E5%9B%BE"><span class="toc-number">3.3.</span> <span class="toc-text">修改蓝图</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5%E8%A7%92%E8%89%B2%E6%A8%A1%E5%9E%8B"><span class="toc-number">4.</span> <span class="toc-text">导入角色模型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%A8%A1%E5%9E%8B"><span class="toc-number">4.1.</span> <span class="toc-text">下载模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%92%E8%89%B2%E5%AF%BC%E5%85%A5%E5%9C%BA%E6%99%AF"><span class="toc-number">4.2.</span> <span class="toc-text">角色导入场景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E4%BA%BA%E7%89%A9"><span class="toc-number">4.3.</span> <span class="toc-text">配置人物</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9C%A8Unity%E4%B8%AD%E4%BD%BF%E7%94%A8"><span class="toc-number">5.</span> <span class="toc-text">在Unity中使用</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://img2.woyaogexing.com/2020/03/18/a665a2dd37c041e694bd62322446827e!400x400.jpeg"></div><div class="author-info__name text-center">ZhangNort</div><div class="author-info__description text-center">toomaatooo blog</div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">10</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">16</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">9</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://raw.githubusercontent.com/toomaatooo/toomaatooo.github.io/main/2023/09/06/argchengyun/mountain.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Toomaatooo's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">🍅Blog</a><a class="site-page" href="/archives">🌕Archives</a><a class="site-page" href="/tags">🍐Tags</a><a class="site-page" href="/categories">🍑Categories</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">ACE(Avatar Cloud Engine) for Games在UE5中的使用</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2023-07-19</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Game/">Game</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Game/Program/">Program</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>阅读文章<a target="_blank" rel="noopener" href="https://www.nvidia.com/en-us/geforce/news/nvidia-ace-for-games-generative-ai-npcs/">Introducing NVIDIA ACE For Games - Spark Life Into Virtual Characters With Generative AI | GeForce News | NVIDIA</a>后决定实践该技术流程</p>
+<p>该模型可以实现与游戏NPC实时对话，具体流程为：</p>
+<ul>
+<li>利用NVIDIA’NeMo AI框架结合NPC个人背景生成其“专属台词”</li>
+<li>利用NVIDIA’Rica模型进行语音识别和文本转语音</li>
+<li>利用NVIDIA’Omniverse Audio2Face功能结合文本驱动数字人面部表情</li>
+</ul>
+<p>该模型目前已支持在Unity和UE5中使用，但本人没有在Unity中成功尝试，在此提供在UE5中的使用流程。文末附已知Unity可用流程。</p>
+<h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><h2 id="下载插件并安装"><a href="#下载插件并安装" class="headerlink" title="下载插件并安装"></a>下载插件并安装</h2><ul>
+<li><p>Convai Unreal 插件仅与Unreal Engine 5和4.26 或更高版本兼容</p>
+</li>
+<li><p>在链接中下载对应版本的插件<a target="_blank" rel="noopener" href="https://drive.google.com/drive/u/0/folders/1bhWisnnlD-gfeo5QQ65Tpbl_GMXoFoc-">文件夹 </a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/u/0/folders/1bhWisnnlD-gfeo5QQ65Tpbl_GMXoFoc-">- Google </a><a target="_blank" rel="noopener" href="https://drive.google.com/drive/u/0/folders/1bhWisnnlD-gfeo5QQ65Tpbl_GMXoFoc-">云端硬盘</a></p>
+</li>
+<li><p>找到引擎的插件安装目录UE_5.2&gt;Engine&gt;Plugins</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718215419330.png" alt="解压后的层级关系"></p>
+</li>
+</ul>
+<h2 id="在引擎中激活插件"><a href="#在引擎中激活插件" class="headerlink" title="在引擎中激活插件"></a>在引擎中激活插件</h2><ul>
+<li><p>打开引擎</p>
+</li>
+<li><p>创建第一人称游戏项目</p>
+</li>
+<li><p>在编辑中打开插件，搜索convai，勾选后选择立即重启。<img src="/2023/07/19/ace%20for%20games/image-20230718215649123.png" alt="操作如图"></p>
+</li>
+<li><p>找到项目所在文件夹,打开Config&#x2F;DefaultEngine.ini,在文件顶端增加</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Voice]</span><br><span class="line">bEnabled=true</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>保存之后关闭,重新启动引擎</p>
+</li>
+</ul>
+<h1 id="创建定制角色"><a href="#创建定制角色" class="headerlink" title="创建定制角色"></a>创建定制角色</h1><ul>
+<li><p>在网站<a target="_blank" rel="noopener" href="https://convai.com/pipeline/dashboard">Loading… (convai.com)</a>注册并登录</p>
+</li>
+<li><p>点击 create a new character<br><img src="/2023/07/19/ace%20for%20games/image-20230718232237640.png" alt="创建新角色"></p>
+</li>
+<li><p>填写合适的数据，右侧的人物也可以进行形象定制。<img src="/2023/07/19/ace%20for%20games/image-20230718232348260.png" alt="对人物进行形象定制"></p>
+</li>
+<li><p>记录角色的Character’s ID和API Key，后续在引擎中需要使用。</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718232438909.png" alt="Character’s ID"><br><img src="/2023/07/19/ace%20for%20games/image-20230718232533250.png" alt="API Key"></p>
+</li>
+</ul>
+<h1 id="引擎中导入角色信息"><a href="#引擎中导入角色信息" class="headerlink" title="引擎中导入角色信息"></a>引擎中导入角色信息</h1><h2 id="输入API-Key"><a href="#输入API-Key" class="headerlink" title="输入API Key"></a>输入API Key</h2><ul>
+<li>打开引擎，编辑-项目设置-插件-convai</li>
+<li>刚才在页面复制的API Key<img src="/2023/07/19/ace%20for%20games/image-20230718232613620.png" alt="输入API"></li>
+</ul>
+<h2 id="创建蓝图"><a href="#创建蓝图" class="headerlink" title="创建蓝图"></a>创建蓝图</h2><ul>
+<li><p>右键内容浏览器，创建蓝图类</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718232827669.png" alt="创建蓝图类"></p>
+</li>
+<li><p>输入搜索ConvaiBaseCharacter</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718232903458.png" alt="创建蓝图类"></p>
+</li>
+<li><p>将蓝图拖拽至场景中</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718232959994.png" alt="将蓝图拖拽至场景中"></p>
+</li>
+</ul>
+<h2 id="修改蓝图"><a href="#修改蓝图" class="headerlink" title="修改蓝图"></a>修改蓝图</h2><ul>
+<li><p>大纲中找到TestChar，细节-默认更改Char ID<img src="/2023/07/19/ace%20for%20games/image-20230718233158238.png" alt="更改Char ID"></p>
+</li>
+<li><p>修改Blueprints文件夹中BP_FirstPersonCharacter蓝图</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718233343050.png" alt="BP_FirstPersonCharacter蓝图"></p>
+</li>
+<li><p>更改类设置中的类选项-父类为ConvaiBasePlayer<img src="/2023/07/19/ace%20for%20games/image-20230718233523020.png" alt="更改类设置中的类选项-父类为ConvaiBasePlayer"></p>
+</li>
+<li><p>目前为止在场景里面可以和NPC正常对话，只是看不到模型，请确保到这一步运行时无bug</p>
+</li>
+</ul>
+<h1 id="导入角色模型"><a href="#导入角色模型" class="headerlink" title="导入角色模型"></a>导入角色模型</h1><h2 id="下载模型"><a href="#下载模型" class="headerlink" title="下载模型"></a>下载模型</h2><ul>
+<li><p>打开窗口-Quixel Bridge.<img src="/2023/07/19/ace%20for%20games/image-20230718233728429.png" alt="窗口-Quixel Bridge"></p>
+</li>
+<li><p>下载喜欢的模型，然后导入<br><img src="/2023/07/19/ace%20for%20games/image-20230718233801181.png" alt="下载模型"><img src="/2023/07/19/ace%20for%20games/image-20230718233855307.png" alt="导入模型"></p>
+</li>
+<li><p>对话框勾选启用缺失</p>
+<p><img src="/2023/07/19/ace%20for%20games/image-20230718233915357.png" alt="勾选如图"></p>
+</li>
+<li><p>此时引擎提示重启，请按提示重启</p>
+</li>
+</ul>
+<h2 id="角色导入场景"><a href="#角色导入场景" class="headerlink" title="角色导入场景"></a>角色导入场景</h2><ul>
+<li><p>在内容管理器中选择角色对应的文件夹。选择了哪个角色，该文件夹就是什么名字。</p>
+</li>
+<li><p>将本蓝图类拖入之后场景会出现角色<img src="/2023/07/19/ace%20for%20games/image-20230718234203261.png" alt="文件夹选取与角色拖入"></p>
+</li>
+<li><p>双击本蓝图类进行编辑</p>
+</li>
+<li><p>更改类设置中的类选项-父类为Convai Base Character<img src="/2023/07/19/ace%20for%20games/image-20230718234433365.png" alt="编辑本蓝图类"></p>
+</li>
+<li><p>更改组件-Body-动画-动画类为Convai_MetaHuman_BodyAnim<img src="/2023/07/19/ace%20for%20games/image-20230718234543054.png" alt="Convai_MetaHuman_BodyAnim"></p>
+</li>
+<li><p>更改组件-Body-Face-动画-动画类为Convai_MetaHuman_FaceAnim<br><img src="/2023/07/19/ace%20for%20games/image-20230718234659515.png" alt="Convai_MetaHuman_FaceAnim"></p>
+</li>
+<li><p>完成后进行编译，确保没有报错</p>
+</li>
+</ul>
+<h2 id="配置人物"><a href="#配置人物" class="headerlink" title="配置人物"></a>配置人物</h2><ul>
+<li>点击场景中的人物，细节-默认-Char ID中粘贴网站复制的ID<br><img src="/2023/07/19/ace%20for%20games/image-20230718235007891.png" alt="更改Char ID"></li>
+</ul>
+<p>到此为止已完成所有配置，可以实现Youtube视频中所展示的效果。</p>
+<h1 id="在Unity中使用"><a href="#在Unity中使用" class="headerlink" title="在Unity中使用"></a>在Unity中使用</h1><p>适用于windows系统与2019.4LTS以上版本Unity</p>
+<ul>
+<li><p>下载core unity plugin<a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1co7z0qMg9N_teYR2dQY5mEyof1kDIMCs/view">ConvaiforUnity-v2023.05.11-core.unitypackage - Google </a><a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1co7z0qMg9N_teYR2dQY5mEyof1kDIMCs/view">云端硬盘</a></p>
+</li>
+<li><p>下载所需ConvaiforUnity_vX.Y.Z.unitypackage <a target="_blank" rel="noopener" href="https://convai.com/download/UnityPlugin">https://convai.com/download/UnityPlugin</a></p>
+</li>
+<li><p>按照《创建定制角色》在convai网站中完成操作</p>
+</li>
+<li><p>导入package与plugin</p>
+</li>
+<li><p>在edit-ProjectSettings-Player-other Settings取消勾选Assemble Version Validation</p>
+</li>
+<li><p>Convai-Convai Setup中输入API密钥<br><img src="/2023/07/19/ace%20for%20games/image-20230718235640018.png" alt="输入API密钥"><br><img src="/2023/07/19/ace%20for%20games/image-20230718235655348.png" alt="输入API密钥"></p>
+</li>
+<li><p>打开assets-convai-scenes中场景，更改Convai NPC Ellen-Convai NPC (Script)-Character ID角色ID<br><img src="/2023/07/19/ace%20for%20games/image-20230718235747800.png" alt="更改角色ID"></p>
+</li>
+</ul>
+<p>以下步骤为可能需要</p>
+<blockquote>
+<ul>
+<li>添加插件<a target="_blank" rel="noopener" href="https://assetstore.unity.com/packages/tools/ai/npc-ai-dialog-actions-and-general-intelligence-by-convai-235621">NPC AI - Dialog, actions and general intelligence - by </a><a target="_blank" rel="noopener" href="https://assetstore.unity.com/packages/tools/ai/npc-ai-dialog-actions-and-general-intelligence-by-convai-235621">Convai</a><a target="_blank" rel="noopener" href="https://assetstore.unity.com/packages/tools/ai/npc-ai-dialog-actions-and-general-intelligence-by-convai-235621"> | AI | Unity Asset Store</a></li>
+<li>添加后在unity打开，download 之后 import</li>
+<li>弹出tmp importer的时候只勾选Import TMP Essentials 安装完毕之后直接退出</li>
+</ul>
+</blockquote>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">ZhangNort</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2023/07/19/ace for games/">http://example.com/2023/07/19/ace for games/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Game/">Game</a><a class="post-meta__tags" href="/tags/Chinese-%E4%B8%AD%E6%96%87/">Chinese 中文</a><a class="post-meta__tags" href="/tags/Unity/">Unity</a><a class="post-meta__tags" href="/tags/UE5/">UE5</a><a class="post-meta__tags" href="/tags/NVIDIA/">NVIDIA</a><a class="post-meta__tags" href="/tags/AI/">AI</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2023/09/06/argchengyun/"><i class="fa fa-chevron-left">  </i><span>极限攀登公司来件</span></a></div><div class="next-post pull-right"><a href="/2023/05/12/unity%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"><span>Unity插件Dialogue System for unity使用记录</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(https://raw.githubusercontent.com/toomaatooo/toomaatooo.github.io/main/2023/09/06/argchengyun/mountain.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2022 - 2024 By ZhangNort</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://toomaatooo.github.io">blog</a>!</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script></body></html>

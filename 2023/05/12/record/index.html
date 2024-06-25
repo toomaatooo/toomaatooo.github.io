@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Dialogue System for Unity usage record"><meta name="keywords" content="Game,Unity,Dialogue System for unity"><meta name="author" content="ZhangNort"><meta name="copyright" content="ZhangNort"><title>Dialogue System for Unity usage record | Toomaatooo's Blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  hexoVersion: '6.3.0'
+} </script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Toomaatooo's Blog" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Avatar-changes-for-NPCs"><span class="toc-number">1.</span> <span class="toc-text">Avatar changes for NPCs</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Conversation-UI-Changes"><span class="toc-number">2.</span> <span class="toc-text">Conversation UI Changes</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://img2.woyaogexing.com/2020/03/18/a665a2dd37c041e694bd62322446827e!400x400.jpeg"></div><div class="author-info__name text-center">ZhangNort</div><div class="author-info__description text-center">toomaatooo blog</div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">10</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">16</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">9</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://raw.githubusercontent.com/toomaatooo/toomaatooo.github.io/main/2023/09/06/argchengyun/mountain.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Toomaatooo's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">🍅Blog</a><a class="site-page" href="/archives">🌕Archives</a><a class="site-page" href="/tags">🍐Tags</a><a class="site-page" href="/categories">🍑Categories</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">Dialogue System for Unity usage record</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2023-05-12</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Skill/">Skill</a><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/Skill/Unity/">Unity</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><p>While creating the recent graduation project, I decided to use the Unity Dialogue System plug-in to implement the dialogue system. I searched for some detailed tutorials on the Internet but couldn’t find any. Here are some points that confused me at the time.</p>
+<h1 id="Avatar-changes-for-NPCs"><a href="#Avatar-changes-for-NPCs" class="headerlink" title="Avatar changes for NPCs"></a>Avatar changes for NPCs</h1><ol>
+<li>Dialogue database for the corresponding dialogue</li>
+</ol>
+<p><img src="/2023/05/12/record/image-20230512101741139.png" alt="dialogue database"></p>
+<ol start="2">
+<li>Change the <strong>avatar of the corresponding NPC</strong> by clicking on it</li>
+</ol>
+<p><img src="/2023/05/12/record/image-20230512101802916.png" alt="更改头像的NPC"></p>
+<ol start="3">
+<li>Just change the <strong>portrait textures</strong> in the inspector panel</li>
+</ol>
+<p><img src="/2023/05/12/record/image-20230512101956715.png" alt="portrait textures"></p>
+<h1 id="Conversation-UI-Changes"><a href="#Conversation-UI-Changes" class="headerlink" title="Conversation UI Changes"></a>Conversation UI Changes</h1><ol>
+<li><p>Change the corresponding <strong>UI prefab</strong>.</p>
+</li>
+<li><p>Communicate with art partners to change the component layout. The figure below is the initial UI panel for the basic dialogue system.<br><img src="/2023/05/12/record/image-20230512102503171.png" alt="UI prefab"><br>The UI effect we want is shown in figure.<br><img src="/2023/05/12/record/image-20230512102622755.png" alt="The desired UI effect"><br>Communicate with art partners to determine the UI layout, and swap the positions of the NPC and player dialog boxes.</p>
+</li>
+<li><p>Beautify the dialog.</p>
+<ul>
+<li><p>NPC part</p>
+<ul>
+<li><p><strong>Basemap replacement.</strong> Change the portrait image’s spirit.</p>
+<p><img src="/2023/05/12/record/image-20230512103354589.png" alt="portrait image"></p>
+<p>Need to check the following:</p>
+<p><img src="/2023/05/12/record/image-20230512110957945.png" alt="portrait image2"></p>
+</li>
+<li><p><strong>NPC avatar replacement.</strong> Use the method shown above to replace the character’s avatar in the database.</p>
+</li>
+<li><p><strong>NPC and base map replacement.</strong> Because the artist draws a different dialog box for each of the NPCs, select the dialog box and the character vertical drawing to replace it in portrait textures. It’s difficult to unify the size in Photoshop, so I can only adjust it slowly.</p>
+</li>
+<li><p><strong>Change images and typography.</strong> Uncheck the horizontal layout group of the PC subtitle panel.</p>
+<p><img src="/2023/05/12/record/image-20230512111831437.png" alt="horizontal layout group"></p>
+<p>After adjusting the text and image position, <strong>check again</strong>.</p>
+</li>
+</ul>
+</li>
+<li><p>Player part</p>
+<ul>
+<li><p>Change the spirit of the scroll rect.</p>
+<p><img src="/2023/05/12/record/image-20230512111622101.png" alt="scroll rect"></p>
+<p><img src="/2023/05/12/record/image-20230512111734094.png" alt="scroll rect2"></p>
+</li>
+<li><p>Section of writing.</p>
+<p>Change <strong>typography</strong>. It is necessary to uncheck and change the Vertical Layout Group of scroll rect and Response Button Template. Check again after changing.</p>
+<p>Because the text part involves <strong>option distribution</strong>, the arrangement parameters need to be fine-tuned. This is the final effect exhibited by the following parameters.</p>
+<p><img src="/2023/05/12/record/image-20230512112922091.png" alt="final effect"></p>
+<p><img src="/2023/05/12/record/image-20230512113011077.png" alt="the final effect is clearly shown"></p>
+<p>The <strong>red boxes</strong> may affect option arrangement:</p>
+<p><img src="/2023/05/12/record/image-20230512113040001.png" alt="parameter"></p>
+<p><img src="/2023/05/12/record/image-20230512113128552.png" alt="parameter2"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Finally, I would like to say something that has nothing to do with the article. Good UI really needs to be in harmony with the art again and again… It takes long communication to determine the layer relationship and control the shape of the texture.</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">ZhangNort</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2023/05/12/record/">http://example.com/2023/05/12/record/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Game/">Game</a><a class="post-meta__tags" href="/tags/Unity/">Unity</a><a class="post-meta__tags" href="/tags/Dialogue-System-for-unity/">Dialogue System for unity</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2023/05/12/unity%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"><i class="fa fa-chevron-left">  </i><span>Unity插件Dialogue System for unity使用记录</span></a></div><div class="next-post pull-right"><a href="/2023/03/13/Game%20Art%20Analysis%20of%20Toem/"><span>Game Art Analysis of Toem</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(https://raw.githubusercontent.com/toomaatooo/toomaatooo.github.io/main/2023/09/06/argchengyun/mountain.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2022 - 2024 By ZhangNort</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://toomaatooo.github.io">blog</a>!</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script></body></html>
